@@ -32,6 +32,15 @@
 }
 
 .icon-svg {
-  margin-left: -1.7rem;
+  margin-left: -2.3rem;
   margin-top: 3px;
+}
+
+.item-track {
+  font-size: medium;
+  background-color: #863e0a;
+  padding: 4px;
+  border-radius: 12px;
+  width: 1.2rem;
+  text-align: center;
 }

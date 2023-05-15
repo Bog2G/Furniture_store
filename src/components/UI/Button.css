@@ -12,15 +12,30 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 7rem;
-  background-color: #57582c;
-  border-radius: 12px;
+  width: 9rem;
+  background-color: #1e860a;
+  border-radius: 17px;
+  padding: 5px;
+  box-shadow: inset 2px 1px 2px 2px rgba(0, 0, 0, 0.39);
 }
 
 .main-btn:active {
   transform: scale(0.92);
 }
 
+.btn-icon {
+  transform: none !important;
+}
+
 .main-btn:hover {
   color: #582c41;
+}
+
+.btn-icon:hover {
+  color: white;
+}
+
+.children {
+  display: flex;
+  gap: 12px;
 }

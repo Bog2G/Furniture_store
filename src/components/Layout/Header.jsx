@@ -14,6 +14,7 @@ export default function Header(props) {
           <Button text={"User"} classes="main-btn" />
           <Button text={"Cart"} classes="main-btn btn-icon">
             <CartIconSvg className="icon-svg" />
+            <span className="item-track"> 5 </span>
           </Button>
         </div>
       </div>
