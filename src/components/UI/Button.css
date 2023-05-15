@@ -1,0 +1,26 @@
+.main-btn {
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1.32rem;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 7rem;
+  background-color: #57582c;
+  border-radius: 12px;
+}
+
+.main-btn:active {
+  transform: scale(0.92);
+}
+
+.main-btn:hover {
+  color: #582c41;
+}
