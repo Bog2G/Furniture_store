@@ -5,7 +5,10 @@ export default function Summary() {
   return (
     <div className="summary-wrapper">
       <section className="summary-box">
-        <h2> High Quality Furniture, Delivered Right At Your Doorstep</h2>
+        <h2 className="summary-title">
+          {" "}
+          High Quality Furniture, Delivered Right At Your Doorstep
+        </h2>
         <p>
           Discover the perfect furniture for your home or office at New Home.
           From modern to classic designs, our online store offers a curated
