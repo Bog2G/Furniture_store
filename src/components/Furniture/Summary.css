@@ -1,0 +1,27 @@
+.summary-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.summary-wrapper img {
+  margin-top: 10rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.summary-box {
+  text-align: center;
+  margin-top: 10rem;
+  width: auto;
+  max-width: 45rem;
+  color: rgba(255, 255, 255, 0.678);
+  padding: 1rem;
+  background-color: #10222b;
+  border-radius: 17px;
+}
+
+.summary-box h2 {
+  color: rgba(255, 255, 255, 0.884);
+  font-weight: bolder;
+}

@@ -1,13 +1,14 @@
 import "./App.css";
 import Header from "./components/Layout/Header";
+import Furniture from "./components/Furniture/Furniture";
 
 function App() {
   return (
     <>
       <Header />
-      <div className="App">
-        <h2>Hello</h2>
-      </div>
+      <main className="main">
+        <Furniture />
+      </main>
     </>
   );
 }
